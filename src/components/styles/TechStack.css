@@ -140,3 +140,29 @@
     gap: 16px;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .techstack-section {
+    margin: 0 auto;
+    padding: 30px 0;
+    gap: 24px;
+  }
+
+  .techstack-header h2 {
+    font-size: clamp(26px, 7vw, 36px);
+  }
+
+  .skill-pill {
+    padding: 10px 16px;
+    font-size: 12px;
+    gap: 8px;
+  }
+
+  .skill-icon {
+    font-size: 16px;
+  }
+
+  .marquee-container {
+    gap: 12px;
+  }
+}

@@ -402,3 +402,73 @@
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .profile-section {
+    padding: 40px 0;
+    min-height: auto;
+  }
+
+  .profile-inner {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  .profile-heading {
+    font-size: clamp(28px, 8vw, 42px);
+  }
+
+  .profile-bio {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .profile-stats {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .stat-box {
+    flex: 1 1 calc(33% - 10px);
+    min-width: 70px;
+    padding: 12px 10px;
+    text-align: center;
+  }
+
+  .stat-box h3 {
+    font-size: 22px;
+  }
+
+  .stat-box p {
+    font-size: 11px;
+  }
+
+  .profile-skills-row {
+    gap: 6px;
+  }
+
+  .profile-skill-tag {
+    font-size: 11px;
+    padding: 4px 10px;
+  }
+
+  .photo-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .photo-main {
+    height: 260px;
+  }
+
+  .photo-secondary,
+  .photo-collage {
+    height: 200px;
+  }
+
+  .floating-tag {
+    font-size: 11px;
+    padding: 8px 14px;
+  }
+}
+
+

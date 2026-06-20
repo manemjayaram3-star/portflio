@@ -83,10 +83,32 @@
 }
 
 .logo-img {
-  height: 120px;
+  height: 60px;
   width: auto;
   object-fit: contain;
   display: inline-block;
   vertical-align: middle;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo-img {
+    height: 80px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .logo-img {
+    height: 120px;
+  }
+}
+
+/* Mobile hamburger nav — hide links on small screens, stack them */
+@media only screen and (max-width: 499px) {
+  .header ul {
+    display: none;
+  }
+  .header {
+    padding: 12px 0;
+  }
 }
 
