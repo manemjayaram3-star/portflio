@@ -60,7 +60,7 @@ body {
   height: auto;
   background-color: #000;
   flex-grow: 1;
-  --cWidth: calc(100% - 30px);
+  --cWidth: calc(100% - 20px);
   --cMaxWidth: 1920px;
   max-width: 100vw;
   overflow-x: hidden;
@@ -68,6 +68,23 @@ body {
 .main-body {
   max-width: 100vw;
   overflow-x: hidden;
+}
+
+/* Mobile-first responsive width */
+@media only screen and (min-width: 481px) {
+  body {
+    --cWidth: calc(100% - 30px);
+  }
+}
+@media only screen and (min-width: 769px) {
+  body {
+    --cWidth: calc(100% - 60px);
+  }
+}
+@media only screen and (min-width: 1025px) {
+  body {
+    --cWidth: calc(100% - 80px);
+  }
 }
 
 .container-main {
