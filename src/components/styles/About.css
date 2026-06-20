@@ -1,56 +1,38 @@
 .about-section {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   place-items: center;
   position: relative;
   opacity: 1;
   height: auto;
   width: var(--cWidth);
   margin: auto;
-  min-height: 100vh;
-  padding: 60px 0;
 }
 .about-me {
-  padding: 30px 0px;
+  padding: 50px 0px;
   padding-bottom: 0;
-  width: 100%;
-  max-width: 100%;
+  width: 500px;
+  max-width: calc(100% - 15px);
 }
 .about-me h3 {
-  font-size: 14px;
+  font-size: 25px;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 7px;
   font-weight: 400;
   color: var(--accentColor);
 }
 
 .about-me p {
-  font-size: 18px;
+  font-size: 33px;
   font-weight: 600;
-  line-height: 22px;
-  letter-spacing: 0.5px;
+  line-height: 36px;
+  letter-spacing: 1px;
 }
 
-@media only screen and (min-width: 481px) {
-  .about-section {
-    padding: 50px 0;
-  }
-  .about-me p {
-    font-size: 20px;
-    line-height: 24px;
-  }
-}
 @media only screen and (min-width: 600px) {
   .about-section {
     justify-content: center;
-  }
-  .about-me {
-    max-width: calc(100% - 15px);
-  }
-  .about-me p {
-    font-size: 22px;
-    line-height: 26px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -61,11 +43,6 @@
   }
   .about-section {
     opacity: 1;
-    padding: 80px 0;
-  }
-  .about-me p {
-    font-size: 26px;
-    line-height: 30px;
   }
 }
 @media only screen and (min-width: 1025px) {
@@ -76,7 +53,6 @@
     height: var(--vh);
     padding: 0px;
     opacity: 1;
-    min-height: auto;
   }
   .about-me {
     padding: 0px;
