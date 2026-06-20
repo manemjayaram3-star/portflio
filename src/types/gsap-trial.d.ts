@@ -1,4 +1,4 @@
-declare module "gsap-trial/SplitText" {
+declare module "gsap/SplitText" {
   export class SplitText {
     constructor(targets: any, vars?: any);
     split(propName?: string): any;
@@ -12,7 +12,7 @@ declare module "gsap-trial/SplitText" {
   export default SplitText;
 }
 
-declare module "gsap-trial/ScrollSmoother" {
+declare module "gsap/ScrollSmoother" {
   export class ScrollSmoother {
     constructor(vars?: any);
     static create(vars?: any): ScrollSmoother;
@@ -26,12 +26,10 @@ declare module "gsap-trial/ScrollSmoother" {
   export default ScrollSmoother;
 }
 
-declare module "gsap-trial/Draggable" {
+declare module "gsap/Draggable" {
   export class Draggable {
     constructor(targets: any, vars?: any);
     static create(targets: any, vars?: any): Draggable;
   }
   export default Draggable;
 }
-
-declare module "gsap-trial/*";
