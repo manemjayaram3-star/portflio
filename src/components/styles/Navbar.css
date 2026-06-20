@@ -90,27 +90,3 @@
   vertical-align: middle;
 }
 
-@media only screen and (max-width: 768px) {
-  .logo-img {
-    height: 60px;
-  }
-  .header {
-    padding: 14px 0;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .logo-img {
-    height: 45px;
-  }
-  .header {
-    padding: 10px 0;
-    margin-bottom: -60px;
-  }
-  .header ul {
-    gap: 16px;
-    font-size: 11px;
-  }
-}
-
-
